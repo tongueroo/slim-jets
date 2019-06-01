@@ -1,4 +1,12 @@
 require "bundler/setup"
+
+# Mock out Jets just so we can at least have a sanity spec
+module Jets
+  class Turbine
+    def self.initializer(label)
+    end
+  end
+end
 require "slim/jets"
 
 RSpec.configure do |config|
