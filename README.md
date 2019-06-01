@@ -1,28 +1,20 @@
-# Slim::Jets
+# Slim Jets
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/slim/jets`. To experiment with that code, run `bin/console` for an interactive prompt.
+[![Gem Version](https://img.shields.io/gem/v/slim-jets.svg)](https://rubygems.org/gems/slim-jets)
 
-TODO: Delete this and the text above, and describe your gem
+[Slim](http://slim-lang.com/) is a template language whose goal is to reduce the syntax to the essential parts without becoming cryptic.
+
+This gem adds Slim support to [Jets: The Ruby Serverless Framework](http://rubyonjets.com/).
+
+Looking for someone who is interested in maintaining this gem.
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Add this line to your Jets project Gemfile:
 
 ```ruby
 gem 'slim-jets'
 ```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install slim-jets
-
-## Usage
-
-TODO: Write usage instructions here
 
 ## Development
 
@@ -32,7 +24,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/slim-jets.
+Bug reports and pull requests are welcome on GitHub at https://github.com/tongueroo/slim-jets.
 
 ## License
 
